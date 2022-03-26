@@ -153,12 +153,19 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.portfolio__item {
-  color: var(--light-text-color);
+/*Portfolio*/
+.portfolio__button {
+  color: var(--dark-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+}
+
+.portfolio__button:hover,
+.portfolio__button:active,
+.portfolio__button:focus {
+  color: var(--light-text-color);
 }
 
 .projects__heading {
