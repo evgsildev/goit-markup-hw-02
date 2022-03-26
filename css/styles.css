@@ -11,7 +11,7 @@ body {
   font-family: var(--main-font), sans-serif;
   color: var(--main-text-color);
 
-  background-color: antiquewhite;
+  background-color: lightgray;
 }
 
 .list {
