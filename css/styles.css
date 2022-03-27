@@ -7,6 +7,7 @@
   --light-text-color: #ffffff;
   --active-text-color: #2196f3;
 }
+
 body {
   font-family: var(--main-font), sans-serif;
   color: var(--main-text-color);
@@ -94,7 +95,6 @@ body {
 .qualities__heading {
   color: var(--dark-text-color);
 
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -112,7 +112,6 @@ body {
 .heading {
   color: var(--dark-text-color);
 
-  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -156,6 +155,7 @@ body {
 /*Portfolio*/
 .portfolio__button {
   color: var(--dark-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -171,14 +171,12 @@ body {
 .projects__heading {
   color: var(--dark-text-color);
 
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.projects__content {
-  font-size: 16px;
+.projects__description {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
